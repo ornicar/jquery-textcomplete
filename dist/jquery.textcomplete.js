@@ -735,7 +735,7 @@ if (typeof jQuery === 'undefined') {
     },
 
     _getActiveElement: function () {
-      return this.$el.children('.textcomplete-item:nth(' + this._index + ')');
+      return this.$el.children('.textcomplete-item:nth-child(' + this._index + ')');
     },
 
     _setScroll: function () {
