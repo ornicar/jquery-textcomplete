@@ -381,7 +381,7 @@
     },
 
     _getActiveElement: function () {
-      return this.$el.children('.textcomplete-item:nth-child(' + this._index + ')');
+      return this.$el.children('.textcomplete-item:nth-child(' + (this._index + 1) + ')');
     },
 
     _setScroll: function () {
